@@ -1,0 +1,159 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar
+{
+    background-color:  rgba(38, 38, 38, 1);
+    margin-left: 5%;
+    height: 98%;
+     width: 225px;
+     left: 0;
+     top: 5px;
+    border-radius: 50px;
+    border: 2px;
+    position:fixed
+}
+.sidebar .profile
+{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.sidebar .profile img
+{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   position:absolute;
+   top:20px;
+   display: block;
+   margin-left: 60px; 
+}
+.sidebar .profile h3{
+    color: #ffffff;
+    position: absolute;
+    top: 120px;
+    left:70px
+}
+.sidebar .profile p{
+    color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top:160px;
+    left:90px;
+    font-size: smaller;
+}
+.sidebar #btn1 button
+{
+    background: black;
+		color: rgba(255, 255, 255, 1);
+		border-radius: 30px !important;
+		border:2px;
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        top:220px;
+        left: 10px;
+}
+.sidebar #btn2 button
+{
+    background: black;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 30px !important;
+    border:2px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top:270px;
+    left: 10px;  
+}
+.sidebar #btn3 button
+{
+    background: black;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 30px !important;
+    border:2px;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top:320px;
+    left: 10px;  
+}
+.top
+{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1100px;
+height: 400px;
+left: 320px;
+top: 5px;
+
+background: #262626;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
+.top .heading h3
+{
+    color:rgba(255, 255, 255, 1);
+    position:absolute;
+    left:30px;
+    top:20px; 
+}
+.top .heading p
+{
+    color: rgba(255, 255, 255, 0.5);
+    position:absolute;
+    left:30px;
+    top: 80px; 
+    width: 500px;
+}
+.top .link
+{
+    color: rgba(255, 255, 255, 0.5);
+    position:absolute;
+    left:40px;
+    top: 350px; 
+}
+.top .image img
+{
+    border-radius: 20px;
+    position: absolute;
+    top:40px; 
+    left:550px;
+}
+.bottom
+{
+    box-sizing: border-box;
+
+position: absolute;
+width: 1100px;
+height: 320px;
+left: 320px;
+top: 410px;
+
+background: #262626;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+}
+.bottom h3
+{
+   color: rgba(255, 255, 255, 1);
+   position:absolute;
+   left: 40px;
+   top:20px;
+}
+table,th,td
+{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-collapse:collapse;
+    height:40px; 
+    color: rgba(255, 255, 255, 0.5);
+
+}
+table
+{
+     position:absolute;
+    left: 30px;
+    top:80px;
+}
